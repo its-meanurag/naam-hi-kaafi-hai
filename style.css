@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height:40px;
+    /* background-color:blueviolet; */
+    position: relative;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+  
+
+}
+nav>img{
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+nav>span{
+    position: absolute;
+    right: 0;
+    
+}
+.logo1{
+   width: 100%;
+   height: 45%;
+    border-bottom: 1px solid black;
+                                                                       
+    
+}
+.logo{
+    width: 96%;
+    
+   position: absolute;
+   left:2%;
+}
+.anchor{
+
+font-size:500%;
+margin: 1% auto;
+width: 95%;
+}
+.bigdot{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    
+}
+.anchor>a{
+    text-decoration: none;
+    color: black;
+
+}
+.anchor>a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.uperwala-video{
+    background-color: rgba(137, 43, 226, 0.692);
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
+.uperwala-video:hover{
+    color: white;
+    cursor: pointer;
+}
+video{
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.video-niche{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 100;
+}
+.niche-wala{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    font-weight: 300;
+    border-bottom: 1px solid black;
+}
+p{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+   
+}
+.niche-wala>a{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 10px;
+
+    top: 60%;
+}
+.book-now{
+    width: 100%;
+    height: 20%;
+    position: relative;
+
+}
+.book-now>h1{
+    position: absolute;
+    top:10%;
+    font-size: 70px;
+    padding-top: 5px;
+
+}
+.book-now>p{
+    position: absolute;
+    font-size: 20px;
+    top: 17%;
+    right: 2%;
+}
+
+.table{
+    
+    list-style-type: none;
+}
+.table>li{
+    position: relative;
+    font-size: 20px;
+    
+ 
+   
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+
+}
+
+.two{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.third{
+    position: absolute;
+    right: 0%;
+
+}
+.main-box{
+    width: 100%;;
+    height: 95%;
+    border-top: 1px solid black;
+    position: relative;
+}
+
+.left-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    
+    position: absolute;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.right-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    
+    position: absolute;
+    padding: 10px;
+    left: 50%;
+
+}
+.left-box>div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 40px;
+}
+.right-box>div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 40px;
+    
+}
+.left-box>div>a{
+    font-size: 130px;
+    color: white;
+    text-decoration: none;
+    
+}
+.left-box>div>span{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+
+
+}
+.right-box>div>a{
+    font-size: 130px;
+    color: white;
+    text-decoration: none;
+    
+}
+.right-box>div>span{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.ad1{
+    border-bottom: 1px solid black;
+    font-size: 100px;
+}
+.ad1>img{
+    height: 100px;
+    transform: translateY(15px);
+}
+.ad1>span{
+    font-size: 100px;
+    font-weight: 600;
+   
+}
+.ad2{
+    border-bottom: 1px solid black;
+    font-size: 100px;
+}
+.ad2>img{
+    height: 100px;
+    transform: translateY(15px);
+}
+.ad2>span{
+    font-size: 100px;
+    font-weight: 600;
+   
+}
+
+
